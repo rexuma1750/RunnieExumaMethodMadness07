@@ -24,7 +24,7 @@ public class RExumaLib {
         public static int multiplicationTable(int base, int range){
                 int i = 0;
                 while (i<=range){
-                        System.out.print(base * i + " ");
+                        System.out.print(base * i + ",");
                         i++;
                 }
                 return i;
@@ -43,8 +43,8 @@ public class RExumaLib {
         /* This method creates encrypted messages using the Vigenere cipher. */
         public static String(String message, String key) {
                 String key = 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z';
-                String output = message.substring(key);
-                return message.substring();
+                String output = message.substring(key)%26;
+                return output;
         }
         }
 
