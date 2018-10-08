@@ -5,7 +5,7 @@ public class RExumaLib {
         public static boolean isPalindrome (String str) {
                 String reverse = "";
                 for (int i = str.length() - 1; i >= 0; i--) {
-                        reverse -= str.substring(i, i+1);
+                        reverse += str.substring(i, i+1);
                 }
                 if (reverse.equals(str)) {
                         return true;
@@ -22,12 +22,12 @@ public class RExumaLib {
         }
 /* This method creates a multiplication table from 0 to a specified range. */
         public static int multiplicationTable(int base, int range){
-                int n = 0;
-                while (n<=range){
-                        System.out.print(base * n + " ");
-                        n++;
+                int i = 0;
+                while (i<=range){
+                        System.out.print(base * i + " ");
+                        i++;
                 }
-                return n;
+                return i;
         }
 /* This method adds up all the numbers from zero to a the number assigned as the input. */
         public static int SumUpTo (int n){
