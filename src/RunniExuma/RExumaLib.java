@@ -1,10 +1,10 @@
 package RunniExuma;
 
 public class RExumaLib {
-        /* This method check whether a word is a Palindrome or not. */
+        /* This method checks whether a word is a Palindrome or not. */
         public static boolean isPalindrome (String str) {
                 String reverse = "";
-                for (int i = str.length() - 1; i >= 0; i--) {
+                for (int i = str.length() - 1; i >= 0; i++) {
                         reverse += str.substring(i, i+1);
                 }
                 if (reverse.equals(str)) {
@@ -30,7 +30,7 @@ public class RExumaLib {
                 return i;
         }
 /* This method adds up all the numbers from zero to a the number assigned as the input. */
-        public static int SumUpTo (int n){
+        public static int SumUpTo(int n){
                 int output = 0;
                 int i = 1;
                 while (i<=n){
@@ -38,6 +38,13 @@ public class RExumaLib {
                         i++;
                 }
                 return output;
+        }
+
+        /* This method creates encrypted messages using the Vigenere cipher. */
+        public static String(String message, String key) {
+                String key = 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z';
+                String output = message.substring(key);
+                return message.substring();
         }
         }
 
