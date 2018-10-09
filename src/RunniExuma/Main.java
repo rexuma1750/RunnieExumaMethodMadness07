@@ -4,7 +4,7 @@ public class Main{
 
     public static void main(String[] args){
         System.out.print(RExumaLib.isPalindrome("madam")); /* isPalindrome method- The word madam is a palindrome. */
-        System.out.print(RExumaLib.dateStr("09/04/1981")); /* Beyonce's Birthday - dateStr Method */
+        System.out.print(RExumaLib.dateStr("04/09/1981")); /* Beyonce's Birthday - dateStr Method */
         System.out.print(RExumaLib.multiplicationTable(0,12)); /* multiplicationTable method */
         System.out.print(RExumaLib.sumUpTo(10)); /* sumUpTo method */
         System.out.print(RExumaLib.primePrinter(6)); /* primePrinter method */
